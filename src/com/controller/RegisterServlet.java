@@ -12,13 +12,7 @@ import java.io.PrintWriter;
 
 @WebServlet(name = "RegisterServlet")
 public class RegisterServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) {
 
-    }
-
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) {
-
-    }
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {
